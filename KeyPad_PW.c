@@ -1,12 +1,12 @@
 
 unsigned short int Checker=0;
 unsigned short int Counter=0;
-#define PORTB.B0 R1;
-#define PORTB.B1 R2;
-#define PORTB.B2 R3;
-#define PORTB.B3 C1;
-#define PORTB.B4 C2;
-#define PORTB.B5 C3;
+Sbit R1 at PORTB.B0;
+Sbit R2 at PORTB.B1;
+Sbit R3 at PORTB.B2;
+Sbit C1 at PORTB.B3;
+Sbit C2 at PORTB.B4;
+Sbit C3 at PORTB.B5;
 
 void main(void)
 {
