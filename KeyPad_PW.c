@@ -23,9 +23,9 @@ void main(void)
                       if ( Counter == 4 )    // 4 Digits entered and Wrong Password
                        {
                        Counter = 0;
-                       PORTA.b1 = 1;     // Turn on Red Green
+                       PORTA.b1 = 1;     // Turn on Red Led
                        delay_ms(5000);  // 5 sec delay
-                       PORTA.b1 = 0;   // Turn off Red Green
+                       PORTA.b1 = 0;   // Turn off Red Led
                        }
                       PORTB = 1; // R1 = 1, R2 = 0 , R3 = 0
                       if (R1 == 1 && C1 == 1 )
