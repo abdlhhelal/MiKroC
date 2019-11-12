@@ -12,7 +12,7 @@ void main(void)
 {
 
 
-
+                     ADCON0=6;
                      TrisA=0;  // PORTA AS OUTPUT
                      PORTA=0;
                      TrisB=0b00111000; // PORTB b0..b2 O/P | b3..b6 I/P
