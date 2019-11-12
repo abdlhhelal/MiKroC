@@ -86,7 +86,7 @@ void main(void)
                        { Checker = 0;
                          Counter++;
                        }
-                       
+                       }
                        if (R3 == 1 && C2 == 1 )
                        {
                         Checker = 1;
@@ -98,6 +98,6 @@ void main(void)
                        Counter++;
                        }
                          
-                       }
+                      }
 
 }
