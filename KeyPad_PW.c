@@ -55,16 +55,20 @@ void main(void)
                        if (Checker == 2)
                        Checker = 3;
                        else
+                       {
                        Checker = 0;
                        Counter++;
+                       }
                        }
                        if (R2 == 1 && C3 == 1 )
                        {
                        if ( Checker == 1 )
                        Checker = 2;
                        else
+                       {
                        Checker = 0;
                        Counter++;
+                       }
                        }
 
 
