@@ -18,7 +18,8 @@ int temp_celcius;
 char tmp1[3]; // intialize char to store a string of 3 chars
 void main() {
 
-
+            TRISC &=~(0x40);
+            PORTC.F6=0;
 LCD_Init(); //Intializes the LCD modules
 DElay_ms(20);
 //ADC_Init(); // Initializes the ADC Module for ADC Conversions
