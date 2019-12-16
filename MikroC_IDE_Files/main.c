@@ -37,7 +37,7 @@ void main() {
             //char VoltChr[7]; //used in case if we want to display the voltage on lcd
             state_t motor_state = MotorUndefined; // to force entering if statement
             TRISA.B4 =1;  // making TRISA.B4 input to fix an issue with pcb
-            TRISB &=~(0x81); // RB0,RB7 Output (LED,BUZZER)
+            TRISB &=~(0x81); // RB0,RB7 Output (LED,BUZZER) PB0 , PB7
             PORTB.F0=0;  // BUZZER OFF
             PORTB.F7=0; // RED_LED OFF
             TRISC.B6=0; // RB6 OUTPUT (RW)
